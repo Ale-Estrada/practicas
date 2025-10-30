@@ -1,0 +1,129 @@
+header{
+    text-align: center;
+    font-family: georgia, serif;
+}
+.titulo{
+    
+    background-color: yellow;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;   
+    border-radius: 6px; 
+    border: 5px solid #333;
+}
+body{
+    background-color: darkorange;
+    font-size: 22px;
+}
+
+.contenido {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.especial{
+text-decoration: underline;
+font-family:'Franklin Gothic Medium';
+font-size: 28px;
+}
+.cuadro{
+    background-color: sandybrown;
+    width: 45%;        
+    border-radius: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid #333;
+}
+.imagen {
+  width: 50%;
+  text-align: right;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.cuadrito {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cuadrito li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+.cuadrito li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.cuadro img::after{
+    content: "";
+    position: absolute;
+
+}
+.paso {
+    display: flex;           
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;             
+    margin-bottom: 20px;     
+}
+.paso .texto {
+    background-color: yellow;
+    border: 5px solid #333;
+    border-radius: 6px;
+    padding: 5px 25px;
+    flex: 1;                 
+    text-align: justify;    
+    font-size: 30px;
+}
+.paso .photo {
+    flex: 1;    
+    margin-top: 10px;     
+    text-align: center;        
+}
+
+.paso .photo img {
+    width: 55%;       
+    height: auto;            
+}
+.NP{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .paso .TX{
+    flex: 1;    
+    margin-top: 0px;
+}
+.paso .TX {
+    background-color: yellow;
+    border: 5px solid #333;
+    border-radius: 6px;
+    padding: 5px 5px;
+    flex: 1;                 
+    text-align: justify;    
+    font-size: 30px;
+}
+.paso .textoC {
+    background-color: yellow;
+    border: 5px solid #333;
+    border-radius: 6px;
+    padding: 0px 25px;
+    flex: 1;                 
+    text-align: justify;    
+    font-size: 31px;
+}
+button {
+    background-color: sandybrown;
+}
